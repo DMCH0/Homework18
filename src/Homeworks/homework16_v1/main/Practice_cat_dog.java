@@ -14,8 +14,7 @@ public class Practice_cat_dog {
              animals.add(new Cat("Vasya"));
 
             for (Animal animal : animals) {
-            animal.sound();
-
+                System.out.println(animal.sound());
             }
         }
 }
